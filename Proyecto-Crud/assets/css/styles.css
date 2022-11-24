@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{ 
+
+    height: 100vh;
+
+}
+
+#inicio .contenido {
+    background:linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)), url(/assets/img/background1.jpg);
+    background-size: cover;
+    background-position: center center;   
+    height: 100vh;
+}
+
+
+#inicio .contenido header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top:0;
+}
+
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: red;
+}
+
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover{
+    color: red;
+}
+
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+
+}
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: red;
+}
+
+
+#inicio .contenido .presentacion{
+    max-width: auto;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color: red;
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: rgba(255, 0, 0, 0.942);
+}
+
+#icono-nav{
+    font-size: 20px;
+    color: #fff;
+    display: none;
+
+}
+
+#inicio .contenido .servicios{
+    text-align: center;
+    background-color: none
+
+}
+#inicio .contenido .servicios .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 14, 14);
+    text-decoration-thickness: 5px;
+}
+
+#inicio .contenido .servicios .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+#inicio .contenido .servicios .fila .servicio{
+    max-width: 350px;
+    background-color: rgb(255, 253, 253);
+    padding: 30px;
+    margin: 0 5px;
+    border-right: 5px;
+    transition: .5s;
+}
+
+#inicio .contenido .servicios .fila .servicio:hover{
+    box-shadow: 5px 5px 10px #d50f0f, -5px -5px 10px #9001a0;
+}
+
+#inicio .contenido .servicios .fila .servicio h4{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+#inicio .contenido .servicios .fila .servicio .icono{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 25px;
+
+}
+
+#inicio .contenido .servicios .fila .servicio hr{
+    width: 30%;
+    margin: auto;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+#inicio .contenido .servicios .fila .servicio ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#inicio .contenido .servicios .fila .servicio p{
+    font-size: 14px;
+    line-height: 22px;
+    color:black;
+}
+
+#inicio .contenido .servicios .fila .servicio input,
+#inicio .contenido .servicios .fila .servicio textarea{
+
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+
+}
